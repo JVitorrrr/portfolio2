@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 430px;
+}
+section img{
+    width: 150px;
+    height: 500px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+    border-radius: 20px;
+    border-radius: 50px;
+}
+section img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+body{
+    
+    background: black;
+    align-items: center;
+
+
+}
+.secao1{
+    color: #fcd8ed;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.seta img{
+    width: 100px;
+    transform: rotate(180deg);
+
+}
+.secao1{
+    display: inline;
+}
+h2{
+    font-size: 20xp;
+    color: #fcebf5;
+}
+.maior{
+    display: flex;
+    background-image: linear-gradient(to top, black, #d90479 );
+}
+h1{
+    padding-bottom: 40px;
+}
